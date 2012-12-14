@@ -1,9 +1,14 @@
 
+0.0.6 / 2012-12-14 
+==================
+
+  * Fixed incorrect pluralization of play
+
 0.0.5 / 2012-08-03 
 ==================
 
-  * add mocha
-  * add whitelist of "video" and "rodeo"
+  * Added mocha
+  * Added whitelist of "video" and "rodeo"
 
 0.0.4 / 2010-11-27 
 ==================

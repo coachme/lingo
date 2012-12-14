@@ -72,8 +72,9 @@ module.exports = {
     assert.equal('indices', en.pluralize('index'));
     assert.equal('indices', en.pluralize('indice'));
     assert.equal('categories', en.pluralize('category'));
+    assert.equal('plays', en.pluralize('play'));
   },
-  
+
   'test .singularize()': function(){
     assert.equal('paper', en.singularize('paper'));
     assert.equal('ox', en.singularize('oxen'));
@@ -99,7 +100,7 @@ module.exports = {
     assert.equal('category', en.singularize('categories'));
     assert.equal('series', en.singularize('series'));
   },
-  
+
   'test .isPlural()': function(){
     assert.equal(true, en.isPlural('dogs'));
     assert.equal(true, en.isPlural('monkies'));
@@ -107,7 +108,7 @@ module.exports = {
     assert.equal(false, en.isPlural('key'));
     assert.equal(false, en.isPlural('fox'));
   },
-  
+
   'test .isSingular()': function(){
     assert.equal(true, en.isSingular('fox'));
     assert.equal(true, en.isSingular('person'));
